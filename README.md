@@ -1,5 +1,7 @@
 # text-training-flask
 
+Great! Here’s the updated `README.md` file with the direct link to your Google Pay QR code image:
+
 ```markdown
 # Text Extraction Flask Application
 
@@ -113,9 +115,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find this project useful and would like to support its development, please consider making a donation. You can donate using Google Pay by scanning the QR code below:
 
-![Google Pay QR Code](https://pin.it/55W7Vx8N3)
+![Google Pay QR Code](https://github.com/xdpotter/text-training-flask/blob/main/google_pay.jpg)
 
 Your support is greatly appreciated!
 ```
 
-This `README.md` file now includes a section for donations with the link to your Google Pay QR code image. Adjust any details as necessary.
+This should properly display the Google Pay QR code image on your GitHub `README.md` page.
