@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extraction Result</h1>
+    <h2>Uploaded Image</h2>
+    <img src="{{ url_for('uploaded_file', filename=image_path.split('/')[-1]) }}" alt="Uploaded Image">
+    <h2>Extracted Text</h2>
+    <pre>{{ extracted_text }}</pre>
+    <h2>Extracted JSON</h2>
+    <pre>{{ json_data | tojson(indent=2) }}</pre>
+</body>
+</html>
