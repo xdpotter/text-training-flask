@@ -1,6 +1,6 @@
 # text-training-flask
 
-Great! Here’s the updated `README.md` file with the direct link to your Google Pay QR code image:
+
 
 ```markdown
 # Text Extraction Flask Application
